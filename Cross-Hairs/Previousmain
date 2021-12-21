@@ -1,0 +1,95 @@
+#include "main.h"
+
+int main(int, char**){
+	Mat image(height, width, CV_8UC3);
+	//Mat image = imread("image.jpeg");
+
+	Mesh box("untitled.obj");
+	//Mesh box(0.0, 0.0, 230.0);
+	box.Transform(0.0, 0.0, 370.0);
+	box.Scale(40.0, 40.0, 40.0);
+
+	//box.Rotate(45.0, 45.0, 45.0);
+
+	clock_t timer 		= clock();
+	clock_t elapsed_time 	= clock();
+
+	for(;;){
+		//elapsed_time = (clock() - timer) / 1000000.0;
+		blackout(image);
+		cursor(image);
+
+		box.PerspectiveRender();
+		box.Rotate(0.0, 15.0, 0.0);
+		box.Transform(x_mouse-width/2.0, y_mouse-height/2.0, 0.0);
+		box.mnew_buildMesh(image);
+
+
+		if(leftMouseClick){
+			//cout << "LeftMouseButton clicked" << endl;
+			leftMouseClick = false;
+			//box.Scale(2.0, 2.0, 2.0);
+			box.Transform(x_mouse-width/2.0, y_mouse-height/2.0, -100);
+		}
+
+		if(rightMouseClick){
+			//cout << "RightMouseButton clicked" << endl;
+			rightMouseClick = false;
+			//box.Scale(0.5, 0.5, 0.5);
+			box.Transform(x_mouse-width/2.0, y_mouse-height/2.0, 100);
+		}
+
+		namedWindow("Hi there", CV_WINDOW_AUTOSIZE);
+		imshow("Hi there", image);
+		setMouseCallback("Hi there", CallBackFunc, &image);
+
+		if(waitKey(10) == 27) break;
+		
+		//timer = clock();
+	}
+
+	image.release();
+	destroyAllWindows();
+}
+
+/*#include <iostream>
+
+#include <opencv2/opencv.hpp>
+
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui_c.h>
+#include <opencv2/aruco.hpp>
+#include <opencv2/calib3d.hpp>
+
+#include <sstream>
+#include <fstream>
+
+using namespace cv;
+using namespace std;
+
+int main()
+{
+  VideoCapture webcam;
+  webcam.open(2);
+
+  if(!webcam.isOpened())//**EDITED**
+    {
+      std::cout<<"CANNOT OPEN CAM"<<std::endl;
+      return -1;
+    }
+
+  Mat frame;
+
+  while(true)
+  {
+    webcam >> frame;
+    imshow("TEST",frame);
+	if(waitKey(10) == 27) 
+		break;
+  }
+  return 0;
+}*/
+
+
