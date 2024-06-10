@@ -18,5 +18,10 @@ This is a project which I presented for the 2021 Hackathon @ NJIT
 
 To start off, I always had a passion for mathematics, physics and programming. The world always seemed quantifiable and boring to me, thus I always reverted to coding. I specifically loved exploiting game and physics engines. Making up glamorous formulas predicting the gravitational trajectory of an object always fascinated me. Having heard of the Hackathon, I was sort of pushed into making my own physics from scratch.
 
-This project tries to simulate fluid dynamics, and fluid viscosity.
+This project tries to simulate fluid dynamics, and fluid viscosity. In particular I drew inspiration from the game [Noita](https://store.steampowered.com/app/881100/Noita/) (cool game btw) to develop this project.
+
+## Methodolgy
+
+* The dynamics of this game are painfully simple. The game is divided into small grids which  
+
 
