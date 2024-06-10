@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 int main(int, char**){
 	//Mat image(height, width, CV_8UC3);
 	Mat image = imread("background.png");
