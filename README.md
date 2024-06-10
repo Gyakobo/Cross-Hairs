@@ -51,27 +51,25 @@ In particular each particle moves in the following manner:
 
 </p></p>
 
-1. If there's however another object underneath the existing one then the particle moves to the left of the object.
+2. If there's however another object underneath the existing one then the particle moves to the left of the object.
 
 <p><p>
 
-|   | X |   |
+| &nbsp; | X | &nbsp; |
 |---|---|---|
 |   | X |   |
 
 </p><p>
 
-&nbsp;
 =>
-&nbsp;
 
 </p><p>
 
-| &nbsp;  |   |   |
+|   |   | &nbsp; |
 |---|---|---|
 | X | X |   |
 
 </p></p>
 
-1. 
+3. 
 
