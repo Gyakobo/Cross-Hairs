@@ -31,7 +31,7 @@ In particular each particle moves in the following manner:
 
 1. If there isn't anything underneath a select particle then the said particle just moves down:
 
-<p align='center'><p>
+<p><p>
 
 |   | X |   |
 |---|---|---|
@@ -51,4 +51,27 @@ In particular each particle moves in the following manner:
 
 </p></p>
 
+1. If there's however another object underneath the existing one then the particle moves to the left of the object.
+
+<p><p>
+
+|   | X |   |
+|---|---|---|
+|   | X |   |
+
+</p><p>
+
+&nbsp;
+=>
+&nbsp;
+
+</p><p>
+
+| &nbsp;  |   |   |
+|---|---|---|
+| X | X |   |
+
+</p></p>
+
+1. 
 
