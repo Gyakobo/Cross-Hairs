@@ -31,20 +31,22 @@ In particular each particle moves in the following manner:
 
 1. If there isn't anything underneath a select particle then the said particle just moves down:
 
-<p>
-<span>
+<p style="width: 100%; float: left;"><span>
+
 |   | X |   |
 |---|---|---|
 | X |   | X |
-</span>
-<span>
+
+</span><span>
+
 =>
-</span>
-<span>
+
+</span><span>
+
 |   |   |   |
 |---|---|---|
 | X | X | X |
-</span>
-<p>
+
+</span></p>
 
 
