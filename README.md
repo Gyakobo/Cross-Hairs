@@ -38,12 +38,12 @@ In particular each particle moves in the following manner:
 | X |   | X |
 
 </span><span>
-
+&nbsp;
 =>
-
+&nbsp;
 </span><span>
 
-|   |   |   |
+| &nbsp;  |   |   |
 |---|---|---|
 | X | X | X |
 
