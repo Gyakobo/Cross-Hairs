@@ -22,6 +22,8 @@ This project tries to simulate fluid dynamics, and fluid viscosity. In particula
 
 ## Methodolgy
 
-* The dynamics of this game are painfully simple. The game is divided into small grids which  
+The game is divided into small grids which
+
+* The dynamics of this game are painfully simple.   
 
 
