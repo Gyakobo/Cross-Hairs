@@ -48,7 +48,7 @@ In particular each particle moves in the following manner:
 </span>
 
 <table>
-<tr> <td></td> <td></td> <td></td> </tr>
+<tr> <td></td> <td>&nbsp;</td> <td></td> </tr>
 <tr> <td>X</td> <td>X</td> <td>X</td> </tr>
 </table>
 
