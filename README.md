@@ -32,27 +32,27 @@ In particular each particle moves in the following manner:
 
 1. If there isn't anything underneath a select particle then the said particle just moves down:
 
-<p>
+<span>
 
 <table>
 <tr> <td></td> <td>X</td> <td></td> </tr>
 <tr> <td>X</td> <td></td> <td>X</td> </tr>
 </table>
 
-<p>
+<span>
 
 &nbsp;
 =>
 &nbsp;
 
-</p>
+</span>
 
 <table>
-<tr> <td></td> <td>X</td> <td></td> </tr>
-<tr> <td>X</td> <td></td> <td>X</td> </tr>
+<tr> <td></td> <td></td> <td></td> </tr>
+<tr> <td>X</td> <td>X</td> <td>X</td> </tr>
 </table>
 
-</p>
+</span>
 
 2. If there's however another object underneath the existing one then the particle moves to the left of the object.
 
