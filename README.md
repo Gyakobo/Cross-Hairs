@@ -72,5 +72,25 @@ In particular each particle moves in the following manner:
 
 </p></p>
 
-3. 
+3. And subsequently the element would seek to occupy the next available space on the right. 
 
+
+<p><p>
+
+| &nbsp; | X | &nbsp; |
+|---|---|---|
+| X | X |   |
+
+</p><p>
+
+=>
+
+</p><p>
+
+|   |   | &nbsp; |
+|---|---|---|
+| X | X | X |
+
+</p></p>
+
+4. Lastly if all the avaiable space below are occupied then the particle in question would remain at the same place.
