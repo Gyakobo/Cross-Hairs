@@ -179,7 +179,7 @@ struct Particle {
 
 Just as a side note the **OpenMP** library comprises of the following parts. Also feel free to download, edit, commit and leave feedback to the project.
 
-### Compiler Directives
+##### Compiler Directives
 
 ```c
 #pragma omp parallel
