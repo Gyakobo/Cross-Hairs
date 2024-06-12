@@ -179,7 +179,7 @@ struct Particle {
 
 Just as a side note the **OpenMP** library comprises of the following parts. Also feel free to download, edit, commit and leave feedback to the project.
 
-For more details about parallelism in C please refer to my previous [project](https://github.com/Gyakobo/multi-threading) where I utilized and explained the `<omp.h>` C library. 
+For more details about parallelism in C please refer to my previous [multi-threading project](https://github.com/Gyakobo/multi-threading) where I utilized and explained the `<omp.h>` C library. 
 
 #### Compiler Directives
 
@@ -212,6 +212,14 @@ export OMP_NUM_THREADS=8
 export OMP_NESTED=TRUE
 ```
 
+## How to execute 
+
+To execute this project please first give exec permissions to [build.sh](https://github.com/Gyakobo/Cross-Hairs/blob/main/Cross-Hairs/build.sh) and of course run it:
+
+```bash
+$ sudo chmod +x build.sh
+$ sudo ./build.sh
+```
 
 ## License
 MIT
