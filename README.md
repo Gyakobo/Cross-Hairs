@@ -216,7 +216,7 @@ export OMP_NESTED=TRUE
 
 To execute this project please first give exec permissions to [build.sh](https://github.com/Gyakobo/Cross-Hairs/blob/main/Cross-Hairs/build.sh) and of course run it:
 
-```bash
+```shell
 $ sudo chmod +x build.sh
 $ sudo ./build.sh
 ```
