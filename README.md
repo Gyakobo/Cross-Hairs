@@ -11,7 +11,7 @@
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 >[!NOTE]
->This is a project which I presented for the [2021 Hackathon @ NJIT](https://devpost.com/software/cross-hairs).  
+>This is a project which I presented and subsequently won 1st place in the [2021 Hackathon @ NJIT](https://devpost.com/software/cross-hairs).  
 
 >[!WARNING]
 >This project is very raw and indelicate, and honestly could be furnished a bit more. Most prominently I want to point out that I should have definitely utilized `malloc` and allocated and managed memory way more efficiently. Apart from that there's a ton of memory leaks and code errors. Moreover, I ought to have used a struct or a class for each particle in this engine.  
