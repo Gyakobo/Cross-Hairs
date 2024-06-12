@@ -50,7 +50,7 @@ In particular each particle moves in the following manner:
 
 |   | &nbsp; |   |
 |---|---|---|
-| █  | █  | █ |
+| █ | █ | █ |
 
 </td></tr>
 
@@ -76,7 +76,7 @@ In particular each particle moves in the following manner:
 
 |   | &nbsp; |   |
 |---|---|---|
-| █  | █  |   |
+| █ | █ |   |
 
 </td></tr>
 
@@ -102,7 +102,7 @@ In particular each particle moves in the following manner:
 
 |   | &nbsp; |   |
 |---|---|---|
-| █  | █  | █ |
+| █ | █ | █ |
 
 </td></tr>
 
@@ -128,13 +128,36 @@ In particular each particle moves in the following manner:
 
 | █ |   |   |
 |---|---|---|
-| █  | █  | █ |
+| █ | █ | █ |
 
 </td></tr>
 
 </table>
 
 
+<table>
+
+<tr><td>
+
+| █ | █ | □ |
+|---|---|---|
+| █ | █ | █ |
+
+</td><td>
+
+&nbsp;
+→
+&nbsp;
+
+</td><td>
+
+| █ |   | █ |
+|---|---|---|
+| █  | █ | █ |
+
+</td></tr>
+
+</table>
 
 
 ## License
