@@ -43,7 +43,7 @@ In particular each particle moves in the following manner:
 </td><td>
 
 &nbsp;
-=>
+→
 &nbsp;
 
 </td><td>
@@ -69,7 +69,7 @@ In particular each particle moves in the following manner:
 </td><td>
 
 &nbsp;
-=>
+→
 &nbsp;
 
 </td><td>
