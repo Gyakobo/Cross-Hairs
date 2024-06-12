@@ -84,7 +84,7 @@ In particular each particle moves in the following manner:
 
 3. And subsequently the element would seek to occupy the next available space on the right: 
 
-> <table>
+<table>
 
 <tr><td>
 
