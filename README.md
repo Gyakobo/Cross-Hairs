@@ -164,22 +164,22 @@ In particular each particle moves in the following manner:
 1. Most definitely I should have just instantiated a struct `struct Particle` and created them with `malloc` and freed memory with `free` respectively. The contents of this data structure would be as follows: the coordinate `int x, y` and the color `char color`. 
 
 >[!NOTE]
->From a memory management perspective, you ought to have the smallest element first in the `struct` in order to minimize memory usage. 
+>From a memory management perspective, you ought to have the smallest element first in the `struct` in order to minimize memory usage. This way a select `struct` object would be of size `9 bytes`.
 
 ```c
 struct Particle {
-    char color;
-    int x, y;
+    char color; /* 1 byte */
+    int x, y; /* 4 bytes per variable */
 }
 ```
 
 2. The particle grid could also be operated with the use of threads. Let say we have an adustable 640 x 480 grid. For now it's very easy to work with this grid, however, as soon as you add more elements or increase the grid size, there becomes an overhead and latency increases. This is where you should use multi-threading.
 
-## The OpenMP - open Multi-processing library 
+### The OpenMP - open Multi-processing library 
 
 Just as a side note the **OpenMP** library comprises of the following parts. Also feel free to download, edit, commit and leave feedback to the project.
 
-##### Compiler Directives
+#### Compiler Directives
 
 ```c
 #pragma omp parallel
@@ -188,7 +188,7 @@ Just as a side note the **OpenMP** library comprises of the following parts. Als
 #pragma omp master
 ```
 
-### Functions
+#### Functions
 
 ```c
 include <omp.h>
@@ -196,14 +196,14 @@ int omp_get_thread_num()
 int omp_get_num_threads()
 ```
 
-### Compiling and Linking
+#### Compiling and Linking
 
 ```bash
 gcc -fopenmp # C compiler
 g++ -fopenmp # C++ compiler
 ```
 
-### Environmental variables
+#### Environmental variables
 
 ```bash
 export OMP_NUM_THREADS=8
