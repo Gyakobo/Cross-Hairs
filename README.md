@@ -32,7 +32,7 @@ In particular each particle moves in the following manner:
 
 1. If there isn't anything underneath a select particle then the said particle just moves down:
 
-<table>
+<table style="color: red;">
 
 <tr><td>
 
