@@ -179,7 +179,7 @@ struct Particle {
 
 Just as a side note the **OpenMP** library comprises of the following parts. Also feel free to download, edit, commit and leave feedback to the project.
 
-For more details about parallelism in C please refer to my previous [project](https://github.com/Gyakobo/multi-threading) where I utilized and explained the `<openmp>` C library. 
+For more details about parallelism in C please refer to my previous [project](https://github.com/Gyakobo/multi-threading) where I utilized and explained the `<omp.h>` C library. 
 
 #### Compiler Directives
 
@@ -193,7 +193,7 @@ For more details about parallelism in C please refer to my previous [project](ht
 #### Functions
 
 ```c
-include <omp.h>
+#include <omp.h>
 int omp_get_thread_num()
 int omp_get_num_threads()
 ```
