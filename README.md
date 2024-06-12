@@ -32,7 +32,7 @@ In particular each particle moves in the following manner:
 
 1. If there isn't anything underneath a select particle then the said particle just moves down:
 
-<table style="color: red;">
+<table>
 
 <tr><td>
 
@@ -58,23 +58,29 @@ In particular each particle moves in the following manner:
 
 2. If there's however another object underneath the existing one then the particle moves to the left of the object.
 
-<p><p>
+<table>
 
-| &nbsp; | X | &nbsp; |
+<tr><td>
+
+|   | █ |   |
 |---|---|---|
-|   | X |   |
+|   | █ |   |
 
-</p><p>
+</td><td>
 
+&nbsp;
 =>
+&nbsp;
 
-</p><p>
+</td><td>
 
-|   |   | &nbsp; |
+|   | &nbsp; |   |
 |---|---|---|
-| X | X |   |
+| █  | █  |   |
 
-</p></p>
+</td></tr>
+
+</table>
 
 3. And subsequently the element would seek to occupy the next available space on the right. 
 
