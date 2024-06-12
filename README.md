@@ -153,11 +153,62 @@ In particular each particle moves in the following manner:
 
 | █ |   | █ |
 |---|---|---|
-| █  | █ | █ |
+| █ | █ | █ |
 
 </td></tr>
 
 </table>
+
+## What I'd have done differently
+
+1. Most definitely I should have just instantiated a struct `struct Particle` and created them with `malloc` and freed memory with `free` respectively. The contents of this data structure would be as follows: the coordinate `int x, y` and the color `char color`. 
+
+>[!NOTE]
+>From a memory management perspective, you ought to have the smallest element first in the `struct` in order to minimize memory usage. 
+
+```c
+struct Particle {
+    char color;
+    int x, y;
+}
+```
+
+2. The particle grid could also be operated with the use of threads. Let say we have an adustable 640 x 480 grid. For now it's very easy to work with this grid, however, as soon as you add more elements or increase the grid size, there becomes an overhead and latency increases. This is where you should use multi-threading.
+
+## The OpenMP - open Multi-processing library 
+
+Just as a side note the **OpenMP** library comprises of the following parts. Also feel free to download, edit, commit and leave feedback to the project.
+
+### Compiler Directives
+
+```c
+#pragma omp parallel
+#pragma omp critical
+#pragma omp barrier
+#pragma omp master
+```
+
+### Functions
+
+```c
+include <omp.h>
+int omp_get_thread_num()
+int omp_get_num_threads()
+```
+
+### Compiling and Linking
+
+```bash
+gcc -fopenmp # C compiler
+g++ -fopenmp # C++ compiler
+```
+
+### Environmental variables
+
+```bash
+export OMP_NUM_THREADS=8
+export OMP_NESTED=TRUE
+```
 
 
 ## License
