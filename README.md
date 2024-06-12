@@ -36,9 +36,9 @@ In particular each particle moves in the following manner:
 
 <tr><td>
 
-|   | X |   |
+|   | █ |   |
 |---|---|---|
-| X |   | X |
+| █ |   | █ |
 
 </td><td>
 
@@ -50,7 +50,7 @@ In particular each particle moves in the following manner:
 
 |   | &nbsp; |   |
 |---|---|---|
-| X | X | X |
+| █  | █  | █ |
 
 </td></tr>
 
