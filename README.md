@@ -42,13 +42,11 @@ In particular each particle moves in the following manner:
 </table>
 
 <table>
-
-<td><tr>
+<tr><td>
 &nbsp;
 =>
 &nbsp;
 </td></tr>
-
 </table>
 
 <table>
