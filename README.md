@@ -30,7 +30,7 @@ The game is divided into small grids which pertain to a specific.
 
 In particular each particle moves in the following manner:
 
-1. If there isn't anything underneath a select particle then the said particle just moves down:
+1. If there simply isn't anything underneath a select particle then the said particle just moves down:
 
 <table>
 
