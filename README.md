@@ -108,7 +108,7 @@ In particular each particle moves in the following manner:
 
 </table>
 
-4. Lastly if all the avaiable space below are occupied then the particle in question would remain at the same place. There is however another methodolgy that I glossed over. There exists an additional step on making the viscosity aspect of this game even more prominent adding another relation: each particle that has nowhere to go would simply 'slide' down left and cocomitantly right if there's already a particle on the left:
+4. Lastly, if all the avaiable space below are occupied then the particle in question would remain at the same place. There is however another methodolgy that I glossed over. There exists an additional step on making the viscosity aspect of this game even more prominent adding another relation: each particle that has nowhere to go would simply 'slide' down left and cocomitantly right if there's already a particle on the left:
 
 <table>
 
