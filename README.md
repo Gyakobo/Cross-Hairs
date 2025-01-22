@@ -22,6 +22,10 @@ To start off, I always had a passion for mathematics, physics and programming. T
 
 This project tries to simulate fluid dynamics, and fluid viscosity. In particular I drew inspiration from the game [Noita](https://store.steampowered.com/app/881100/Noita/) (cool game btw) to develop this project. More details can be found on this [video](https://youtu.be/mcoHVF-JWog?si=MOAMeUlSdaGBlRED)
 
+
+https://github.com/user-attachments/assets/bca51814-f474-4b7e-af04-2bf966234822
+
+
 ## Methodolgy
 
 The game is divided into small grids which pertain to a specific.
